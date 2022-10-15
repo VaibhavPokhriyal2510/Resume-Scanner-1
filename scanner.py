@@ -10,7 +10,7 @@ class ResumeScanner(object):
         nlp = spacy.load('en_core_web_sm')
         self.__matcher = Matcher(nlp.vocab)
         self.__details = {
-            'name'              : None,
+            'full_name'         : None,
             'email'             : None,
             'mobile_number'     : None,
             'skills'            : None,
